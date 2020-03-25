@@ -78,4 +78,11 @@ if __name__ == '__main__':
         print("Taking last temperature file: %s" % args.path)
     else:
         print("Using selected temperature file: %s" % args.path)
+    if 0 <= args.core < cores_count:
+        print("Plotting only core #%d" % args.core)
+    elif args.core == -1:
+        print("Plotting all cores")
+    else:
+        print("Error: core number {} not in [0, {}]".format(args.core, cores_count - 1))
+        exit(1)
     main(args.path, args.core)
