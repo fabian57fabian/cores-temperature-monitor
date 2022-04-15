@@ -3,7 +3,7 @@
 This project monitors all cpu cores temperature and stores them into a file.
 Also a real-time plotter is available.
 
-UPDATE: this only works with nvidia cpus. And Ryzen does not work and needs a workaround like [this](https://askubuntu.com/questions/1164206/lm-sensors-and-amd-ryzen-x570-chipset).
+UPDATE: this only works with **Intel** cpus. With **And Ryzen** does not work and needs a workaround like [this](https://askubuntu.com/questions/1164206/lm-sensors-and-amd-ryzen-x570-chipset).
 
 ## Requirements
 - *Python 3.x* installed
